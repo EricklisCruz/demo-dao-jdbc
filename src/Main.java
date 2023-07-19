@@ -37,5 +37,10 @@ public class Main {
         seller.setName("Martha Waine");
         sellerDao.update(seller);
         System.out.println("Update completed");
+
+        System.out.println("DELETE");
+        int id = 8;
+        sellerDao.deleteById(id);
+        System.out.println("DONE");
     }
 }
