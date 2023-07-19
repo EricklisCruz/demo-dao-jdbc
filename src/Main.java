@@ -5,6 +5,7 @@ import db.model.entities.Department;
 import db.model.entities.Seller;
 
 import java.sql.SQLException;
+import java.util.Date;
 import java.util.List;
 
 public class Main {
@@ -22,5 +23,13 @@ public class Main {
         List<Seller> list = sellerDao.findByDepartment(department);
 
         list.forEach(System.out::println);
+
+        System.out.println("FIND ALL SELLER");
+        List<Seller> allSellers = sellerDao.findAll();
+        allSellers.forEach(System.out::println);
+
+        Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", new Date(), 4000.0, department);
+        sellerDao.insert(newSeller);
+        System.out.println("Inserted! New ID= " + newSeller.getId());
     }
 }
