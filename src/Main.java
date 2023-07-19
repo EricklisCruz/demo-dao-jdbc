@@ -1,3 +1,4 @@
+import db.model.dao.DepartmentDao;
 import db.model.dao.SellerDao;
 import db.model.dao.impl.DaoFactory;
 import db.model.entities.Department;
