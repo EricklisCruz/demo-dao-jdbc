@@ -10,8 +10,8 @@ In this project you can:
 </ul> 
 This method you can delete departments by id:
 
-<img src="https://github.com/EricklisCruz/demo-dao-jdbc/assets/62524710/af9601fc-f7c6-4a74-8bac-61b5150e14cc">
+<img src="https://github.com/EricklisCruz/demo-dao-jdbc/assets/62524710/9b2f6a4e-13a3-45c4-a606-4af6e4d6484c">
 
 This method you can find a department by id:
-<img src="https://github.com/EricklisCruz/demo-dao-jdbc/assets/62524710/4c7bc9ff-9363-4037-b4ca-f5e1075d216f">
+<img src="https://github.com/EricklisCruz/demo-dao-jdbc/assets/62524710/966a7fc3-32ab-49fd-958c-a156caecbc51">
 
